@@ -1,120 +1,126 @@
-
-
-.gameboard {
-	width: 330px;
-	height:310px;
-	border:3px solid white;
-	z-index: 1;
-   
+h1 {
+	text-align: center;
 }
 
 
+body {
+	background-image: url("http://www.staceybess.com/gfx/bg-chalkboard.jpg");
+	background-size: cover;
+}
+
+
+#chalk {
+	position: absolute;
+	z-index: -1;
+}
+
+
+.gameboard {
+	width: 328px;
+	height:318px;
+	z-index: 1;
+	margin-top: 75px;
+}
 
 .wrapper {
 	width: 330px;
 	margin:0 auto;
+
 }
-
-
 
 .button {
 	 
 	 background-color:white;
 	 width: 160px;
 	 margin:0 auto;
-
-	}
-
+}
 
 button {
 	float: left;
 }
 
-
-
-.row1, row2, row3 {
+.row1, .row2, .row3 {
 	clear:both;
+
 }
 
+#cell1,#cell2,#cell4,#cell5 {
+	border-right: 8px solid white;
+	border-bottom: 8px solid white;
+	border-style: eraser;
+}
 
+#cell3,#cell6{
+	border-bottom: 8px solid white;
+}
 
+#cell7 {
+	border-right: 8px solid white;
+}
+
+#cell9 {
+	border-left: 8px solid white;
+}
 
 #cell1 {
 	width:100px;
 	height:100px;
-	border:3px solid black;
 	float: left;
-	background-color: green;
 }
 
 #cell2 {
 	width:100px;
 	height:100px;
-	border:3px solid black;
 	float: left;
-	background-color: blue;
 }
 
 #cell3 {
 	width:100px;
 	height:100px;
-	border:3px solid black;
-	background-color: red;
 	float: left;
 }
 
 #cell4 {
 	width:100px;
 	height:100px;
-	background-color: yellow;
 	float: left;
-	border:3px solid black;
 }
 
 #cell5 {
 width:100px;
 	height:100px;
-	background-color: orange;
 	float: left;
-	border:3px solid black;
-
 }
-
-
 
 #cell6 {
 	width:100px;
 	height:100px;
-	background-color: gray;
 	float: left;
-	border:3px solid black;
-	
 }
 
 #cell7 {
 	width:100px;
 	height:100px;
-	background-color: black;
 	float: left;
-	border:3px solid black;
-	
 }
 
 #cell8 {
 	width:100px;
 	height:100px;
-	background-color: lightblue;
 	float: left;
-	border:3px solid black;
 }
-
 
 #cell9 {
 	width:100px;
 	height:100px;
-	background-color: pink;
 	float: left;
-	border:3px solid black;
-
 }
+
+
+
+
+
+
+
+
 
